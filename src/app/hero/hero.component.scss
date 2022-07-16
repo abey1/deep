@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(66, 133, 244, 1) 15%,
+    rgba(66, 133, 244, 1) 90%,
+    rgba(255, 255, 255, 1) 90%
+  );
+
+  .sub-main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    app-left-hero {
+      width: 60%;
+      height: 100%;
+
+      @media screen and (max-width: 990px) {
+        width: 100%;
+      }
+    }
+
+    app-right-hero {
+      width: 40%;
+      height: 100%;
+      @media screen and (max-width: 990px) {
+        width: 0%;
+        display: none;
+      }
+    }
+  }
+}

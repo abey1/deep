@@ -1,0 +1,52 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15vh;
+  .sub-main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .logo-container {
+      width: 15vw;
+      background: #4285f4;
+      border: none;
+      border-radius: 50%;
+      i {
+        font-size: 15vw;
+        color: white;
+      }
+    }
+    .get-stuff-button {
+      color: white;
+      margin: 3vh 0;
+      font-size: 2vw;
+      border-radius: 50px;
+    }
+    ul {
+      list-style: none;
+      color: white;
+      font-size: 1.5vw;
+      margin: 0 10vw;
+      li {
+        .single-step {
+          display: flex;
+          i {
+            margin-right: 1vw;
+          }
+        }
+      }
+    }
+    .learn-more-btn {
+      font-size: 1.2vw;
+      margin-left: 15vw;
+      border-radius: 10px;
+    }
+  }
+}

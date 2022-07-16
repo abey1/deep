@@ -1,0 +1,11 @@
+.main {
+  .title {
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .canvas-container {
+    canvas {
+      height: 200px;
+    }
+  }
+}

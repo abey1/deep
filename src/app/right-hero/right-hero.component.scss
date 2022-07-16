@@ -1,0 +1,30 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  mdb-card {
+    z-index: 0;
+    .decorator {
+      height: 1vh;
+      width: 100%;
+      background: #4285f4;
+      border-radius: 10px 10px 0 0;
+    }
+    mdb-card-body {
+      mdb-card-title {
+        text-align: center;
+      }
+      mdbBtn {
+        width: 100%;
+      }
+      .log-in-link {
+        width: 100%;
+        text-align: center;
+      }
+      form {
+        margin-top: 2vh;
+      }
+    }
+  }
+}

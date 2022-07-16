@@ -1,0 +1,32 @@
+.main {
+  margin-bottom: 10vh;
+  .main-title {
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .comment-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2vh;
+
+    @media screen and (max-width: 990px) {
+      flex-direction: column;
+    }
+
+    .single-comment {
+      margin: 0 0.5vw;
+      width: 30vw;
+
+      @media screen and (max-width: 990px) {
+        width: 100vw;
+      }
+
+      .author {
+        text-align: right;
+      }
+    }
+  }
+}

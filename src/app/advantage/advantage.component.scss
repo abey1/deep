@@ -1,0 +1,17 @@
+.main {
+  margin-top: 10vh;
+  .single-advantage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5vh 0;
+    @media screen and (max-width: 990px) {
+      flex-direction: column-reverse;
+    }
+    .comment-content {
+    }
+    .comment-image-holder {
+    }
+  }
+}
